@@ -1,0 +1,24 @@
+
+# Python / Django
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+.pytest_cache/
+.coverage
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+build/
+
+# Local tooling
+.vscode/
+.DS_Store
+Thumbs.db
